@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Brand Analytics</title>
+    <style>
+      :root{--navy:#0B2341;--green:#16865B;--gold:#b8860b;--blue:#2387C8;--ink:#14211d;--muted:#66746f;--line:#e2e8e5;--canvas:#eef2f1;}
+      *{box-sizing:border-box;}
+      body{margin:0;font-family:Inter,ui-sans-serif,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--canvas);}
+      .topbar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:12px 18px;background:var(--navy);color:#fff;}
+      .topbar a.back{color:#cfe0d9;text-decoration:none;font-size:.82rem;font-weight:700;}
+      .topbar strong{font-size:.95rem;}.topbar .spacer{flex:1;}
+      .topbar button{min-height:34px;padding:6px 14px;border:0;border-radius:8px;background:#1a8b67;color:#fff;font-weight:700;font-size:.8rem;cursor:pointer;}
+      .wrap{max-width:1000px;margin:0 auto;padding:22px 16px 60px;}
+      .msg{color:var(--muted);font-size:.85rem;padding:10px 2px;}
+      .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-bottom:18px;box-shadow:0 5px 22px rgba(20,33,29,.04);}
+      .card h2{margin:0 0 4px;font-size:1.05rem;}
+      .card .sub{margin:0 0 16px;color:var(--muted);font-size:.8rem;}
+      .funnel-row{display:grid;grid-template-columns:150px 1fr 120px;align-items:center;gap:12px;margin-bottom:9px;}
+      .funnel-row .label{font-size:.82rem;font-weight:650;}
+      .bar{height:30px;border-radius:7px;background:#eef3f1;overflow:hidden;}
+      .bar > i{display:block;height:100%;border-radius:7px;background:linear-gradient(90deg,var(--green),#1aa978);min-width:2px;}
+      .funnel-row .val{text-align:right;font-size:.8rem;}
+      .funnel-row .val b{font-size:.95rem;}
+      .funnel-row .val span{color:var(--muted);}
+      .stat-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:8px;}
+      .stat{padding:14px;border:1px solid var(--line);border-radius:11px;}
+      .stat span{display:block;color:var(--muted);font-size:.72rem;font-weight:650;}
+      .stat strong{font-size:1.5rem;letter-spacing:-.03em;}
+      .stat small{display:block;margin-top:3px;color:var(--green);font-size:.72rem;font-weight:700;}
+      table{width:100%;border-collapse:collapse;margin-top:8px;}
+      th,td{padding:9px 10px;font-size:.78rem;text-align:left;border-bottom:1px solid #eef2f0;}
+      th{color:#74817c;font-size:.64rem;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;}
+      td.num,th.num{text-align:right;}
+      .pill{display:inline-block;padding:2px 8px;border-radius:999px;background:#e9f5ef;color:#0b6c4e;font-size:.7rem;font-weight:800;}
+      .table-wrap{overflow-x:auto;}
+      @media (max-width:620px){.stat-grid{grid-template-columns:repeat(2,1fr);}.funnel-row{grid-template-columns:110px 1fr 86px;}}
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <a class="back" href="crm.html">← CRM</a>
+      <strong>Brand Analytics</strong>
+      <span class="spacer"></span>
+      <button id="refresh" type="button">Refresh</button>
+    </div>
+    <div class="wrap">
+      <p class="msg" id="msg">Loading…</p>
+
+      <div class="card">
+        <h2>Landing page funnel</h2>
+        <p class="sub">Unique visits moving from page view to messaging you. Conversion % is vs page views.</p>
+        <div id="landing-funnel"></div>
+      </div>
+
+      <div class="card">
+        <h2>Email sequence: overall</h2>
+        <p class="sub">Across all sent sequence emails. Messenger clicks are the real conversion; opens are approximate (Apple Mail inflates them).</p>
+        <div class="stat-grid" id="email-stats"></div>
+      </div>
+
+      <div class="card">
+        <h2>Email sequence: by email</h2>
+        <p class="sub">Which emails convert best. Click a column header to sort.</p>
+        <div class="table-wrap"><table id="email-table"><thead></thead><tbody></tbody></table></div>
+      </div>
+    </div>
+    <script src="analytics.js"></script>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Brand Email Sequence</title>
+    <style>
+      :root{--navy:#0B2341;--green:#16865B;--gold:#b8860b;--blue:#2387C8;--ink:#14211d;--muted:#66746f;--line:#e2e8e5;--canvas:#eef2f1;}
+      *{box-sizing:border-box;}
+      body{margin:0;font-family:Inter,ui-sans-serif,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--canvas);}
+      .topbar{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:14px;flex-wrap:wrap;padding:12px 18px;background:var(--navy);color:#fff;}
+      .topbar a.back{color:#cfe0d9;text-decoration:none;font-size:.82rem;font-weight:700;}
+      .topbar strong{font-size:.95rem;}.topbar .spacer{flex:1;}
+      .topbar .chip{display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border-radius:999px;background:rgba(255,255,255,.12);font-size:.72rem;font-weight:700;}
+      .topbar .chip i{width:8px;height:8px;border-radius:50%;background:#29c07f;display:inline-block;}
+      .topbar label{display:flex;align-items:center;gap:7px;font-size:.76rem;color:#cfe0d9;}
+      .topbar input{min-height:32px;padding:5px 10px;border:0;border-radius:8px;font-size:.8rem;}
+
+      .wrap{max-width:1180px;margin:0 auto;padding:20px 16px 60px;}
+      .stat-tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px;}
+      .stat{background:#fff;border:1px solid var(--line);border-radius:13px;padding:14px 16px;}
+      .stat span{display:block;color:var(--muted);font-size:.72rem;font-weight:650;}
+      .stat strong{font-size:1.5rem;letter-spacing:-.03em;}
+      .stat small{display:block;margin-top:2px;color:var(--green);font-size:.72rem;font-weight:700;}
+
+      .filter-tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;}
+      .filter-tag{padding:7px 13px;border:1px solid var(--line);border-radius:999px;background:#fff;color:#45534f;font-size:.74rem;font-weight:700;cursor:pointer;}
+      .filter-tag.active{background:var(--navy);color:#fff;border-color:var(--navy);}
+
+      .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:14px;}
+      .seq-card{display:flex;flex-direction:column;gap:9px;text-align:left;padding:16px;border:1px solid var(--line);border-radius:14px;background:#fff;cursor:pointer;transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease;min-height:150px;}
+      .seq-card:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(20,33,29,.09);border-color:#cdd8d3;}
+      .seq-card .top{display:flex;align-items:center;justify-content:space-between;}
+      .seq-card .eid{font-size:.68rem;font-weight:900;color:#fff;background:var(--navy);padding:3px 8px;border-radius:7px;}
+      .seq-card .phase{font-size:.64rem;font-weight:800;text-transform:uppercase;letter-spacing:.04em;color:var(--green);}
+      .seq-card .subj{font-size:.88rem;font-weight:700;line-height:1.35;color:var(--ink);flex:1;}
+      .seq-card .foot{display:flex;align-items:center;justify-content:space-between;border-top:1px solid #eef2f0;padding-top:9px;}
+      .seq-card .day{font-size:.68rem;font-weight:700;color:var(--muted);}
+      .seq-card .counts{font-size:.66rem;color:var(--muted);}
+      .seq-card .counts b{color:var(--ink);}
+
+      /* Modal */
+      .email-modal{width:min(640px,calc(100% - 20px));max-height:calc(100vh - 28px);padding:0;border:0;border-radius:16px;overflow:hidden;box-shadow:0 30px 90px rgba(7,31,24,.4);}
+      .email-modal::backdrop{background:rgba(9,25,20,.55);}
+      .modal-bar{position:sticky;top:0;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px 16px;background:#fff;border-bottom:1px solid var(--line);}
+      .modal-bar div{min-width:0;}
+      .modal-bar .mb-kick{font-size:.6rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);}
+      .modal-bar .mb-subj{font-size:.84rem;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+      .modal-bar button{flex:0 0 auto;width:32px;height:32px;border:0;border-radius:50%;background:#f0f4f2;font-size:1.1rem;cursor:pointer;}
+      .modal-scroll{overflow-y:auto;max-height:calc(100vh - 86px);background:#e6ebee;padding:18px 12px;}
+
+      /* Rendered email (shown inside the modal) */
+      .email-card{max-width:600px;width:100%;margin:0 auto;background:#fff;border-radius:18px;overflow:hidden;border:1px solid #dfe6e3;}
+      .eb-head{background:#0B2341;padding:19px 24px;text-align:center;}
+      .eb-head img{width:44px;height:44px;border-radius:50%;display:inline-block;vertical-align:middle;}
+      .eb-head span{display:inline-block;vertical-align:middle;margin-left:10px;color:#fff;font-size:.95rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase;}
+      .eb-hero{margin:0;overflow:hidden;}
+      .eb-hero img{display:block;width:100%;}
+      .eb-hero.empty{display:flex;align-items:center;justify-content:center;min-height:190px;background:#f3f7f5;}
+      .eb-hero-label{display:none;color:#8a938e;font-size:.82rem;font-weight:700;}
+      .eb-hero.empty .eb-hero-label{display:block;}
+      .eb-body{padding:28px 32px 10px;font-size:16px;line-height:1.6;color:#2a3630;}
+      .eb-body p{margin:0 0 14px;}
+      .eb-body .eb-indent{margin:0 0 14px;padding:12px 14px;background:#f3f7f5;border-left:3px solid var(--green);border-radius:8px;}
+      .eb-body .eb-indent div{padding:2px 0;color:#34433b;}
+      .eb-cta{margin:12px 24px 0;padding:24px 18px;border-radius:16px;background:#e9f5ef;text-align:center;}
+      .eb-cta img{width:80px;height:80px;border-radius:50%;border:3px solid #fff;}
+      .eb-cta .name{margin-top:10px;font-size:17px;font-weight:800;color:var(--navy);}
+      .eb-cta .role{font-size:13px;color:#2f6b55;}
+      .eb-cta a{display:inline-block;margin-top:16px;padding:14px 30px;border-radius:10px;background:#0866ff;color:#fff;text-decoration:none;font-weight:800;font-size:15px;}
+      .eb-partner{margin:14px 24px 4px;padding:18px 20px;border:1px solid #f0dca8;border-radius:14px;background:#fff8e8;text-align:center;color:#6b4e12;}
+      .eb-partner-title{font-size:13px;font-weight:800;color:#8a5a00;}
+      .eb-partner p{margin:6px 0 13px;font-size:13px;line-height:1.5;}
+      .eb-partner a{display:inline-block;padding:11px 24px;border-radius:9px;background:#F5B82E;color:#3a2a00;text-decoration:none;font-weight:800;font-size:14px;}
+      .eb-foot{margin-top:22px;background:#f2f6f5;border-top:1px solid #e6ebe9;padding:22px 28px;text-align:center;color:#8a938e;font-size:12px;line-height:1.7;}
+      .eb-foot strong{color:#5a6b63;}
+      .eb-foot a{color:#8a938e;text-decoration:underline;}
+
+      .msg{color:var(--muted);font-size:.82rem;padding:6px 2px;}
+      @media (max-width:620px){.stat-tiles{grid-template-columns:repeat(2,1fr);}}
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <a class="back" href="crm.html">← CRM</a>
+      <strong>Email Sequence</strong>
+      <span class="chip"><i></i><span id="status-chip">Live · 1 email/day</span></span>
+      <span class="spacer"></span>
+      <label>Preview name <input id="name-input" type="text" value="Juan" /></label>
+    </div>
+    <div class="wrap">
+      <div class="stat-tiles" id="stat-tiles"></div>
+      <div class="filter-tags" id="phase-filter"></div>
+      <p class="msg" id="msg"></p>
+      <div class="grid" id="grid"></div>
+    </div>
+
+    <dialog class="email-modal" id="modal">
+      <div class="modal-bar">
+        <div><div class="mb-kick" id="mb-kick"></div><div class="mb-subj" id="mb-subj"></div></div>
+        <button type="button" id="modal-close" aria-label="Close">&times;</button>
+      </div>
+      <div class="modal-scroll"><div id="modal-render"></div></div>
+    </dialog>
+
+    <script src="email-preview.js"></script>
+  </body>
+</html>

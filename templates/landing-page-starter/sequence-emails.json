@@ -1,0 +1,352 @@
+[
+  {
+    "id": "E1",
+    "title": "Red flags in a quote",
+    "phase": "EARN TRUST",
+    "subject": "Kung naa ni sa imong quote, ayaw sa pirma",
+    "body": "Founder ni from Brand.\n\nDaghan ang nag-message nako nga naka-sign na sa solar, then na-notice nila ang problema after. Para dili ni mahitabo nimo, ania ang 3 ka red flags sa usa ka quote:\n\n    1. \"8kW package\" lang, walay breakdown. Kung dili itemized ang panels, inverter, ug battery, dili nimo ma-know kung unsa gyud ang imong gibayran.\n    2. Walay brand ug model. Pangayo gyud. Tier 1 ba ang panel? Unsang inverter?\n    3. Nag-promise og \"zero bill.\" Walay honest nga installer nga mo-promise ana.\n\nNaa kay quote karon nga gusto nimo ipa-check? Message lang ko, tan-awon nato dungan."
+  },
+  {
+    "id": "E2",
+    "title": "kW vs kWh",
+    "phase": "EARN TRUST",
+    "subject": "\"8kW\" daw. Pero 8kW nga unsa?",
+    "body": "Usa sa pinaka-common nga trick: \"8kW system\" daw, pero wala gi-explain.\n\nSimple lang ni:\n\n    kW = ang size sa system (capacity).\n    kWh = ang actual nga gamit nimo kada bulan (naa sa imong bill).\n\nKung ang installer mag-focus sa kW pero wala mangutana sa imong kWh, basin ga-benta lang og dako nga package, dili ang sakto para nimo.\n\nAng tamang basis magstart sa imong bill, dili sa package.\n\nGusto nimo ma-know pila ka kWh imong gamit? Message lang ko, tabangan tika basa sa imong bill."
+  },
+  {
+    "id": "E3",
+    "title": "Zero-bill myth",
+    "phase": "EARN TRUST",
+    "subject": "\"Zero bill guaranteed\"? Ania ang tinuod",
+    "body": "Makadungog ka og \"zero bill guaranteed.\" Gusto nako honest ko nimo:\n\nBisan naay solar, naa gihapoy gamay nga bayronon, labi na kung gabii ka daghan mogamit o naay cloudy days.\n\nAng tinuod nga goal dili zero. Ang goal kay dako nga reduction sa imong bill, base sa imong gamit ug budget.\n\nSi bisan kinsa nga mo-promise og zero, pangutana: naa ba na sa papel? Kay kung wala, pulong ra na.\n\nGusto og honest nga tan-aw sa imong setup? Message lang."
+  },
+  {
+    "id": "E4",
+    "title": "Questions to ask any installer",
+    "phase": "EARN TRUST",
+    "subject": "I-screenshot ni before ka mag-meet og installer",
+    "body": "Before ka mag-meet og bisan kinsang solar installer, ania ang 5 ka pangutana. I-screenshot ni:\n\n    1. Itemized ba ang quote? (panels, inverter, battery, installation)\n    2. Unsang brand ug model ang panel ug inverter?\n    3. Pila ka tuig ang warranty, ug naa ba sa papel?\n    4. Kinsa ang mo-handle sa VECO permit ug approval?\n    5. Mo-balik ba sila para maintenance? Giunsa?\n\nKung dili sila maka-answer og klaro sa lima, take it slow lang.\n\nNaa kay installer nga gi-consider? Message ko, tabangan tika og tan-aw."
+  },
+  {
+    "id": "E5",
+    "title": "Warranty on paper",
+    "phase": "EARN TRUST",
+    "subject": "Warranty sa laway, o warranty sa papel?",
+    "body": "\"25 years warranty daw.\" Nindot paminawon. Pero pangutana: asa nasulat?\n\nTan-awa ni:\n\n    Panel warranty (performance + product): lahi ni sa inverter.\n    Inverter warranty: usually mas mubo, pangutana pila.\n    Battery warranty: tan-awa ang cycles o years.\n    Installation warranty: kinsa ang responsible kung naay leak o problema sa installation?\n\nKung \"warranty\" lang ang gi-ingon pero walay papel, red flag na.\n\nGusto nimo ipa-check imong warranty terms? Ipadala lang, basahon nato."
+  },
+  {
+    "id": "E6",
+    "title": "The payback-period lie",
+    "phase": "EARN TRUST",
+    "subject": "\"2 years payback!\" Ayaw dayon tuo",
+    "body": "Usually makadungog ka og \"2 years payback ra ni.\"\n\nAng tinuod: ang payback naga-depende sa imong bill, imong gamit, ang presyo sa kuryente karon, ug ang klase sa system. Walay usa ka numero nga tama para sa tanan.\n\nKung naay mo-promise og exact nga payback nga wala pa nakakita sa imong bill, that is a question mark.\n\nAng honest nga answer: \"atong tan-awon una ang imong consumption.\"\n\nGusto og honest nga estimate base sa imong actual nga bill? Message lang."
+  },
+  {
+    "id": "E7",
+    "title": "Cheap vs right-sized",
+    "phase": "EARN TRUST",
+    "subject": "Ang pinakabarato, basin ang pinakamahal sa dulo",
+    "body": "Normal lang mangita og barato. Pero sa solar, ang pinakamura basin dako og gasto sa dugay.\n\nExample:\n\n    Undersized nga system: dili igo, bayad gihapon kag dako sa kuryente.\n    Barato nga inverter: basin dali ma-damage, mahal ang repair.\n    Walay maintenance support: kung ma-problema, ikaw ra isa.\n\nDili sab buot pasabot nga ang pinakamahal mao ang sakto. Ang importante: right-sized sa imong balay, dili sobra o kulang.\n\nGusto nimo ma-check kung unsa ang sakto nga size para nimo? Message lang."
+  },
+  {
+    "id": "E8",
+    "title": "What if the installer disappears",
+    "phase": "EARN TRUST",
+    "subject": "Paglabay sa 2 ka tuig, asa na ang installer?",
+    "body": "Ang solar, long-term nga investment. Ang pangutana nga usually makalimtan:\n\nKung ma-problema ang system after a few years, kinsa ang imong tawagan?\n\nPangutana sa installer:\n\n    Naa bay office o store nga pwede duawon?\n    Kinsa ang mo-handle sa warranty claims?\n    Available ba ang parts sa brand nila dinhi sa Pilipinas?\n\nMao ni ang reason nga importante ang local nga team ug kilalang brand.\n\nGusto og team nga naa ra sa Cebu? Message lang ko."
+  },
+  {
+    "id": "E9",
+    "title": "Permits and utility approval",
+    "phase": "EARN TRUST",
+    "subject": "Nag-install pero walay permit? Risky na",
+    "body": "Daghan ang wala ka-know nga ang solar naay process, dili lang basta butang sa atop.\n\nKinahanglan:\n\n    Tama nga installation nga pasado sa safety standards.\n    Permit ug application sa imong utility (VECO, MECO, o uban pa).\n    Para sa net metering, naay separate nga approval.\n\nKung ang installer mo-ingon nga \"dili na kinahanglan na,\" pangutana pa gyud.\n\nGusto nimo masabtan ang process para sa imong area? Message lang, i-explain nako og simple."
+  },
+  {
+    "id": "E10",
+    "title": "How to verify a datasheet",
+    "phase": "EARN TRUST",
+    "subject": "Pangayo og datasheet. Kung dili ihatag, red flag",
+    "body": "Simple nga test sa usa ka installer: pangayo og datasheet sa panel ug inverter.\n\nUnsa ang i-check:\n\n    Ang brand ug exact model.\n    Ang wattage sa panel (example, 630W).\n    Ang warranty terms, naka-print.\n\nKung dali ra ni ihatag ug klaro, maayo na nga sign. Kung \"ipadala ra namo\" nga dili gyud moabot, think about it.\n\nNaa kay quote nga gusto nimo i-verify? Message lang, tan-awon nato ang datasheet dungan."
+  },
+  {
+    "id": "E11",
+    "title": "How to read your bill in 30 seconds",
+    "phase": "TALK MONEY",
+    "subject": "Kini nga numero sa bill, mas importante pa sa peso",
+    "body": "Kung tan-awon nimo imong electric bill, ang unang makita kay ang peso amount. Pero dili na ang pinaka-importante.\n\nPangitaa ang kWh (kilowatt-hours). Mao ni ang actual nga gamit nimo kada bulan.\n\n    Ang peso amount naga-usab depende sa presyo sa kuryente.\n    Ang kWh ang tinuod nga measure sa imong consumption.\n\nKung kabalo ka sa imong kWh, dili ka ma-oversell og dako nga system.\n\nGusto og tabang basa sa imong bill? I-screenshot (tabuni ang account number) ug message lang."
+  },
+  {
+    "id": "E12",
+    "title": "Why your bill jumped",
+    "phase": "TALK MONEY",
+    "subject": "Pareho ra imong gamit pero mosaka ang bill?",
+    "body": "Naay mga bulan nga mosaka ang bill bisan pareho ra man imong gamit. Dili ka nag-inusara.\n\nCommon nga reason:\n\n    Nag-init, mas dugay ang aircon ug ref.\n    Nag-usab ang presyo sa kuryente (generation charge).\n    Mas taas ang days sa billing cycle.\n\nAng point: dili kanunay imong sala. Pero pwede ni ma-manage kung masabtan nimo asa gyud napunta ang kuryente.\n\nGusto nimo ma-check asa naggikan ang imong bill? Message lang."
+  },
+  {
+    "id": "E13",
+    "title": "Aircon is the biggest eater",
+    "phase": "TALK MONEY",
+    "subject": "Ang imong aircon ra, pila na sa imong bill?",
+    "body": "Sa kadaghanan nga Cebu homes, ang aircon ang pinaka-dako nga contributor sa bill.\n\nMabantayan nimo:\n\n    Mas init, mas dugay modagan, mas dako ang kuryente.\n    Ang daan nga unit, mas gutom sa kuryente kaysa inverter type.\n    Ang settings ug maintenance, dako og effect.\n\nImportante ni kung mag-solar ka, kay ang aircon usually sa adlaw mogamit, maayo na para sa solar.\n\nGusto ma-check kung pila sa imong bill ang aircon? Message lang, computon nato pag-abot sa assessment."
+  },
+  {
+    "id": "E14",
+    "title": "Appliance cost cheat sheet",
+    "phase": "TALK MONEY",
+    "subject": "Pila kada bulan ang imong ref? I-save ni",
+    "body": "Dili tanan appliance pareho og gasto. Ania ang general nga idea (dili exact, depende sa unit):\n\n    Ref: padayon modagan, adlaw ug gabii.\n    Aircon: dako kung dugay gamiton.\n    Water pump: mubo pero kusog mogamit kada hakot.\n    Rice cooker, flat iron: mubo ra oras pero kusog.\n\nKung ma-know nimo asa napunta imong kuryente, mas sayon mo-decide unsa ang i-backup o i-solar.\n\nGusto og breakdown sa imong balay? Message lang."
+  },
+  {
+    "id": "E15",
+    "title": "3 free ways to cut your bill first",
+    "phase": "TALK MONEY",
+    "subject": "Before ka mag-solar, buhata una ni",
+    "body": "Dili dayon solar ang answer. Naay free nga paagi nga pwede nimo buhaton karon:\n\n    1. I-clean o i-service ang aircon. Ang hugaw nga filter, mas kusog mogamit.\n    2. I-unplug ang dili gamit. Ang standby, naay gamay nga gasto gihapon.\n    3. Shift sa LED kung wala pa. Mubo ra pero madugang.\n\nKung nabuhat na nimo ni ug taas gihapon ang bill, kana na ang sign nga maayo na i-consider ang solar.\n\nGusto og honest nga advice para sa imong setup? Message lang."
+  },
+  {
+    "id": "E16",
+    "title": "Is solar worth it at a small bill?",
+    "phase": "TALK MONEY",
+    "subject": "Gamay ra imong bill? Basin dili pa para nimo",
+    "body": "Honest ko nimo: dili tanan kinahanglan og solar karon.\n\nKung gamay ra kaayo imong bill, basin dugay ang payback, ug mas maayo pa nga mo-wait o magstart sa gagmay.\n\nPero kung:\n\n    Taas na jud imong bill kada bulan, ug\n    Daghan ka mogamit sa adlaw, ug\n    Gusto ka og backup during brownout,\n\nkana na ang point nga maayo na usabon ang numero.\n\nGusto og honest nga tan-aw kung para na ba nimo? Message lang, walay pressure."
+  },
+  {
+    "id": "E17",
+    "title": "Solar math, an example",
+    "phase": "TALK MONEY",
+    "subject": "6kW solar. Pila man gyud ma-cover sa imong bill?",
+    "body": "Usually pangutana: \"pila ba ma-cover sa solar sa akong bill?\"\n\nAng honest nga answer: it depends. Pero ania kung giunsa pag-compute (example lang, dili promise):\n\n    Ang production sa solar naga-depende sa size, atop, ug adlaw.\n    Ang ma-cover naga-depende kung kanus-a ka mogamit (adlaw vs gabii).\n    Ang net metering makatabang sa sobra nga kuryente.\n\nDili ni tag-an. Kinahanglan tan-awon ang imong bill ug atop una.\n\nGusto og estimate base sa imong actual nga numero? Message lang."
+  },
+  {
+    "id": "E18",
+    "title": "Cash vs installment",
+    "phase": "TALK MONEY",
+    "subject": "Hulog sa solar vs hulog sa kuryente. Asa mas taas?",
+    "body": "Ang solar, investment. Naay mo-cash, naay mo-installment.\n\nMga pangutana una mo-decide:\n\n    Pila ang total kung cash vs installment (naa bay interest)?\n    Pila ang imong ginabayad karon kada bulan sa kuryente?\n    Mahaum ba ang hulog sa imong budget nga dili bug-at?\n\nWalay usa ka answer para sa tanan. Ang importante, klaro ang numero before ka mag-sign.\n\nGusto og klarong comparison para sa imong case? Message lang."
+  },
+  {
+    "id": "E19",
+    "title": "Daytime vs nighttime usage",
+    "phase": "TALK MONEY",
+    "subject": "Kung gabii ka daghan mogamit, lahi imong kinahanglan",
+    "body": "Importante ni nga pangutana: kanus-a ka daghan mogamit og kuryente?\n\n    Kung adlaw (WFH, negosyo sa balay): maayo kaayo sa solar, kay adlaw man mo-produce.\n    Kung gabii (after work): basin kinahanglan nimo og battery para magamit ang solar sa gabii.\n\nKini ang reason nga ang \"one size fits all\" nga package usually mali. Ang imong schedule sa paggamit, importante.\n\nGusto ma-check unsa ang haom sa imong schedule? Message lang."
+  },
+  {
+    "id": "E20",
+    "title": "The \"biggest package\" trap",
+    "phase": "TALK MONEY",
+    "subject": "Ngano gibentahan ka og dako kaayo nga system",
+    "body": "Usahay, ang gi-recommend nga system mas dako pa sa imong kinahanglan.\n\nNgano?\n\n    Mas dako nga system, mas dako nga benta.\n    Sayon i-benta ang \"future-proof\" bisan wala pa nimo kinahanglana.\n\nDili sayop ang mag-plano para sa future. Pero dapat base ni sa imong actual nga gamit, dili sa quota sa nagbaligya.\n\nGusto og second opinion sa gi-quote nimo? Message lang, free ang tan-aw."
+  },
+  {
+    "id": "E21",
+    "title": "Generation charge explained",
+    "phase": "TALK MONEY",
+    "subject": "Ngano naga-usab ang presyo sa kuryente kada bulan",
+    "body": "Naa kay na-notice nga ang per-kWh nga presyo sa imong bill, naga-usab kada bulan?\n\nUsually tungod sa generation charge, ang part nga naggikan sa mga power plant. Mausab ni depende sa supply ug gasto sa fuel.\n\nAng point para nimo:\n\n    Dili ka maka-control sa presyo sa kuryente.\n    Pero ang imong consumption, ma-manage nimo.\n\nMao ni usa sa mga reason nganong gina-consider sa daghan ang solar, para mas stable ang gasto.\n\nGusto masabtan imong bill line by line? Message lang."
+  },
+  {
+    "id": "E22",
+    "title": "What a right-sized recommendation looks like",
+    "phase": "TALK MONEY",
+    "subject": "Unsa ang hitsura sa tamang recommendation",
+    "body": "After sa tanan nga sales talk, ania ang hitsura sa honest nga recommendation:\n\n    Base sa imong actual nga kWh ug bill.\n    Gi-consider ang imong atop ug shade.\n    Gi-identify kung adlaw o gabii ka mogamit.\n    Itemized: panels, inverter, battery, installation.\n    Walay promise og zero bill o exact payback.\n\nKung ingon ani ang imong madawat, maayo na nga sign.\n\nGusto og recommendation nga ingon ani? Magstart ta sa imong bill. Message lang."
+  },
+  {
+    "id": "E23",
+    "title": "Battery runtime, honestly",
+    "phase": "BROWNOUT",
+    "subject": "Brownout. Pila ka oras ang imong ref ug Wi-Fi?",
+    "body": "Usually pangutana: \"pila ka oras makatagal ang battery?\"\n\nHonest nga answer: it depends sa size sa battery ug unsa ang imong gi-backup.\n\n    Gamay nga load (lights, Wi-Fi, charging): mas dugay.\n    Dako nga load (aircon, pump): mas paspas maubos.\n\nDili ko mo-give og exact nga oras nga wala pa nakita imong setup, kay mali kaayo kung tag-an lang.\n\nGusto ma-check unsa ang realistic para sa imong balay? Message lang."
+  },
+  {
+    "id": "E24",
+    "title": "Hybrid vs on-grid",
+    "phase": "BROWNOUT",
+    "subject": "Naa kay solar pero patay gihapon pag brownout?",
+    "body": "Importante ni masabtan before mo-palit:\n\n    On-grid solar: mo-work samtang naay kuryente sa linya. Pag brownout, mo-shut off (safety na).\n    Hybrid solar nga may battery: pwede padayon bisan brownout, depende sa setup.\n\nKung ang imong goal kay backup during brownout, importante ang klase sa system.\n\nDaghan ang na-disappoint kay akala naay backup, pero on-grid diay.\n\nGusto ma-check unsa ang haom sa imong goal? Message lang."
+  },
+  {
+    "id": "E25",
+    "title": "Why on-grid shuts off",
+    "phase": "BROWNOUT",
+    "subject": "Naa kay solar pero brownout gihapon? Dili sira",
+    "body": "Kung on-grid imong solar ug mo-off sad pag brownout, dili na sira. Safety feature na.\n\nNgano?\n\n    Para dili maka-damage sa mga tawo nga nag-ayo sa linya samtang patay ang kuryente.\n    Automatic ni nga design sa on-grid systems.\n\nKung gusto nimo nga padayon bisan brownout, kinahanglan hybrid nga may battery.\n\nGusto masabtan unsa ang sakto para sa imong area nga usually mag-brownout? Message lang."
+  },
+  {
+    "id": "E26",
+    "title": "Generator vs battery",
+    "phase": "BROWNOUT",
+    "subject": "Generator o battery? Tinuod nga comparison",
+    "body": "Pareho silang backup, pero lahi og character:\n\n    Generator: barato sa una, pero naay gas/diesel, saba, ug maintenance.\n    Solar battery: dako sa una, pero hilom, automatic, ug walay fuel.\n\nWalay \"best\" para sa tanan. Naga-depende sa imong budget ug unsa ka kanunay ang brownout.\n\nDili sab buot pasabot nga ang usa, maot. Ang importante, haom sa imong need.\n\nGusto og honest nga comparison para sa imong case? Message lang."
+  },
+  {
+    "id": "E27",
+    "title": "Pick your backup list",
+    "phase": "BROWNOUT",
+    "subject": "Kung brownout, unsa gyud ang kinahanglan nimo?",
+    "body": "Dili tanan kinahanglan og power during brownout. Naa kay choice.\n\nExample nga essentials:\n\n    Lights ug Wi-Fi.\n    Ref (para dili ma-spoil ang pagkaon).\n    Fan.\n    Charging sa phone.\n\nKung klaro ang imong \"backup list,\" mas sakto ang battery nga kinahanglan nimo, dili sobra o kulang.\n\nGusto maghimo ta sa imong backup list? Message lang, tabangan tika."
+  },
+  {
+    "id": "E28",
+    "title": "WFH protection",
+    "phase": "BROWNOUT",
+    "subject": "Brownout sa tunga sa meeting? Never again",
+    "body": "Kung nag-work from home ka o naay online nga business, ang brownout dili lang hassle, kundi kawala og income.\n\nAng solar nga may backup makatabang nga:\n\n    Padayon ang internet ug laptop.\n    Dili ma-cut ang meeting o order.\n    Protected ang imong income.\n\nDili ni about sa tanang appliance, kundi sa mga importante nga dili dapat ma-cut.\n\nGusto ma-check unsa ang kinahanglan para ma-protect ang imong WFH? Message lang."
+  },
+  {
+    "id": "E29",
+    "title": "Myth: solar does not work when cloudy",
+    "phase": "BROWNOUT",
+    "subject": "Dili mo-work ang solar kung maulan? Mali",
+    "body": "Common nga belief: \"dili mo-work ang solar kung cloudy o ulan.\"\n\nAng tinuod:\n\n    Mo-work gihapon ang solar kung cloudy, mubo ra ang production.\n    Mas gamay sa ulan, pero dili zero.\n    Ang maayong design, gi-consider na ang weather sa Cebu.\n\nMao ni ang reason nga importante ang tamang sizing ug, kung kinahanglan, battery.\n\nGusto masabtan unsa ang realistic sa weather dinhi? Message lang."
+  },
+  {
+    "id": "E30",
+    "title": "Myth: solar needs heavy maintenance",
+    "phase": "BROWNOUT",
+    "subject": "Dako og maintenance ang solar? Dili kaayo",
+    "body": "Lain nga belief: \"dako og maintenance ang solar.\"\n\nAng tinuod:\n\n    Ang panels, usually ulan na ang mo-clean, panagsa ra kinahanglan hugasan.\n    Ang inverter ug battery, naay monitoring, pero dili adlaw-adlaw nga trabaho.\n    Ang importante, kilalang brand ug naay support team.\n\nDili ni \"install ug kalimti,\" pero dili sab bug-at kaayo.\n\nGusto masabtan unsa ang realistic nga maintenance? Message lang."
+  },
+  {
+    "id": "E31",
+    "title": "Typhoon season safety",
+    "phase": "BROWNOUT",
+    "subject": "Bagyo. Unsa mahitabo sa imong solar panels?",
+    "body": "Normal mangutana: \"safe ba ang solar panels kung bagyo?\"\n\nAng importante:\n\n    Ang tamang mounting ug installation, gi-design para sa hangin.\n    Ang quality sa materials ug installation, dako og effect.\n    Mao ni ang reason nga dili dapat basta-basta ang installer.\n\nDili ko mo-promise nga walay mahitabo sa bisan unsa nga bagyo. Pero ang tamang install, dako og kalainan.\n\nGusto masabtan unsa ang tamang mounting para sa imong atop? Message lang."
+  },
+  {
+    "id": "E32",
+    "title": "Roof types that work",
+    "phase": "BROWNOUT",
+    "subject": "Yero, concrete, tile: mohaum ba ang solar?",
+    "body": "Usually pangutana: \"mohaum ba ang solar sa akong atop?\"\n\nCommon nga klase:\n\n    Yero (metal/GI): usually sayon butangan.\n    Concrete/flat: pwede, naay mounting system.\n    Tile: pwede, pero mas special ang installation.\n\nAng importante dili lang ang klase, kundi ang condition ug shade sa imong atop.\n\nGusto ma-check kung haom ba ang imong atop? Message lang, tan-awon nato."
+  },
+  {
+    "id": "E33",
+    "title": "What a real site visit looks like",
+    "phase": "LOCAL PROOF",
+    "subject": "Ingon ani ang tinuod nga assessment. Dili tag-an",
+    "body": "Ang tinuod nga assessment, dili basta tag-an sa phone.\n\nUsually kauban ani:\n\n    Pagtan-aw sa imong bill ug kWh.\n    Pag-check sa atop: klase, condition, shade.\n    Pangutana sa imong gamit: adlaw o gabii, unsa i-backup.\n    After ana, saktong recommendation.\n\nKung naay mo-quote nga wala pa nakakita sa imong atop ug bill, take it slow lang.\n\nGusto og tinuod nga assessment para sa imong balay? Free ni. Message lang."
+  },
+  {
+    "id": "E34",
+    "title": "Net metering simply",
+    "phase": "LOCAL PROOF",
+    "subject": "Pwede ka mo-baligya og kuryente sa utility? Oo, apan...",
+    "body": "Naa kay nadungog nga \"pwede mo-baligya og kuryente balik sa VECO\"?\n\nTinuod ni, net metering ang tawag. Pero:\n\n    Naay application ug approval nga process.\n    Ang sobra nga kuryente, ma-credit sa imong bill.\n    Dili ni instant nga kita, kundi tabang sa pag-reduce sa bill.\n\nImportante nga masabtan ang process para sa imong area una ka mag-expect og dako.\n\nGusto masabtan ang net metering sa imong utility? Message lang."
+  },
+  {
+    "id": "E35",
+    "title": "MECO vs VECO areas",
+    "phase": "LOCAL PROOF",
+    "subject": "Lapu-Lapu ka? Lahi ang imong utility",
+    "body": "Dili parehas ang process depende sa imong utility.\n\nExample:\n\n    VECO: Cebu City ug kasikbit.\n    MECO: Mactan, Lapu-Lapu area.\n    Uban pa depende sa lugar.\n\nLahi-lahi sila og process ug requirements para sa solar ug net metering.\n\nImportante ni masabtan sayo para walay surprise.\n\nTaga-asa ka? Message lang, i-explain nako ang process para sa imong lugar."
+  },
+  {
+    "id": "E36",
+    "title": "Meet the team",
+    "phase": "LOCAL PROOF",
+    "subject": "Kinsa man ang mo-reply nimo? Kami ni",
+    "body": "Gusto nako nga klaro ka kung kinsa ang imong gi-istorya.\n\n    Ako si Founder, ang mo-reply sa imong message.\n    Ang technical ug installation, ang Partner Cebu ang mag-himo, mga professional nga naay licensed engineer. Ang Brand mao ang mo-connect nimo kanila.\n    Gipadagan ni sa [Your Company].\n\nDili ni bot o call center. Tawo gyud ang imong ka-istorya.\n\nNaa kay pangutana about sa solar? Message lang, ako ra gyud ang mo-answer."
+  },
+  {
+    "id": "E37",
+    "title": "Why local service matters",
+    "phase": "LOCAL PROOF",
+    "subject": "Ngano importante nga local ang imong installer",
+    "body": "Ang solar, 10+ ka tuig nga kauban nimo. Mao nga importante nga naa ra sa duol ang imong team.\n\nNgano?\n\n    Kung naay problema, duol ra ang tabang.\n    Mas sayon ang warranty claim.\n    Kabalo sila sa weather ug utility dinhi sa Cebu.\n\nAng barato nga naggikan sa layo, basin mahal kung kinahanglan na nimo og service.\n\nGusto og team nga taga-Cebu? Message lang."
+  },
+  {
+    "id": "E38",
+    "title": "Questions people ask me most",
+    "phase": "LOCAL PROOF",
+    "subject": "Ania ang pinaka-common nga pangutana nako",
+    "body": "Daghan nag-message nako, ug naay mga pangutana nga balik-balik:\n\n    \"Pila ang system para sa akong bill?\"\n    \"Mo-work ba ni kung brownout?\"\n    \"Pila ka tuig ang payback?\"\n\nAng tinuod, tanan ni magstart sa usa ka butang: ang imong bill ug imong gamit.\n\nWalay tama nga answer kung wala pa ni nato nakita.\n\nNaa kay pangutana sa imong hunahuna? Message lang, answeron nako og honest."
+  },
+  {
+    "id": "E39",
+    "title": "Before you compare quotes",
+    "phase": "LOCAL PROOF",
+    "subject": "Nag-compare ka og quotes? Basaha ni una",
+    "body": "Maayo nga mangita ka og daghang quote. Pero para fair ang comparison:\n\n    Siguroha nga parehas ang size (kW) nga gi-quote.\n    Tan-awa ang brand ug model, dili lang ang presyo.\n    I-compare ang warranty ug ang included nga installation.\n    Pangutana kinsa ang mo-handle sa permit.\n\nKung lahi-lahi ang laman, dili fair ang pag-compare sa presyo lang.\n\nGusto og tabang i-compare ang imong quotes? Message lang, tan-awon nato dungan."
+  },
+  {
+    "id": "E40",
+    "title": "The free assessment, explained",
+    "phase": "LOCAL PROOF",
+    "subject": "Unsa gyud ang nahitabo sa free assessment?",
+    "body": "\"Free assessment\" daw. Unsa gyud ni?\n\n    Tan-awon nato ang imong bill ug kWh.\n    I-check ang imong atop ug shade (site visit kung haom).\n    I-ask ang imong gamit ug backup needs.\n    After ana, honest nga recommendation, walay pressure.\n\nWalay bayad, ug walay obligation nga mo-palit.\n\nGusto magstart? Message lang, atong simulan."
+  },
+  {
+    "id": "E41",
+    "title": "No-pressure promise",
+    "phase": "LOCAL PROOF",
+    "subject": "Walay pressure. Pangutana lang",
+    "body": "Gusto nako klaro: kung mo-message ka, dili buot pasabot nga kinahanglan ka mo-palit.\n\n    Pwede ka mangutana lang.\n    Pwede ipa-check imong bill o quote.\n    Pwede mag-plano para sa future.\n\nAng akong goal, matabangan ka makasabot, dili i-push ka sa dili pa panahon.\n\nNaa kay pangutana? Message lang, relax lang."
+  },
+  {
+    "id": "E42",
+    "title": "What happens after you message",
+    "phase": "LOCAL PROOF",
+    "subject": "After ka mo-message, unsa sunod?",
+    "body": "Para klaro ang process, ania unsa ang mahitabo after ka mo-message:\n\n    1. Mangutana ko sa imong bill ug gamit.\n    2. Kung haom, mag-set ta og free site assessment.\n    3. After ana, honest nga recommendation ug itemized nga quote.\n    4. Ikaw ang mo-decide, walay pressure.\n\nSimple ra, ug naa ko sa matag step.\n\nReady ka magstart? Message lang."
+  },
+  {
+    "id": "E43",
+    "title": "A note on trust",
+    "phase": "LOCAL PROOF",
+    "subject": "Ngano importante ang tiwala sa solar",
+    "body": "Ang solar, dako nga decision ug dako nga amount. Mao nga ang tiwala, importante pa sa presyo.\n\nAmong gi-focus:\n\n    Honest nga advice, bisan \"dili pa para nimo karon.\"\n    Klaro nga quote ug warranty.\n    Local nga team nga naa ra kung kinahanglan.\n\nDili mi mo-promise og zero bill o exact payback. Mo-promise mi og klaro ug tinuod.\n\nNaa kay pangutana? Message lang."
+  },
+  {
+    "id": "E44",
+    "title": "Reminder: your bill is the starting point",
+    "phase": "LOCAL PROOF",
+    "subject": "Tanan magstart sa usa ka butang: imong bill",
+    "body": "After sa tanan nga topic, balik ta sa basics:\n\nAng tama nga solar, magstart sa imong bill ug imong gamit, dili sa package nga gi-benta.\n\n    Pila imong kWh?\n    Kanus-a ka daghan mogamit?\n    Unsa gusto nimo ma-backup?\n\nKung kini masabtan, dili ka ma-oversell.\n\nGusto magstart? I-screenshot imong bill (tabuni ang account number) ug message lang."
+  },
+  {
+    "id": "E45",
+    "title": "Red flags recap",
+    "phase": "RECAP + GENTLE CLOSE",
+    "subject": "Balik-tan-aw: ang mga red flags",
+    "body": "Para dili malimtan, ania ang mga red flags nga gi-istorya nato:\n\n    Walay itemized nga quote.\n    Walay brand ug model.\n    Promise og \"zero bill\" o exact payback.\n    Walay klaro nga warranty sa papel.\n    Walay plano para sa permit ug maintenance.\n\nKung naa niini sa imong quote, pangutana una.\n\nGusto ipa-check imong quote? Message lang."
+  },
+  {
+    "id": "E46",
+    "title": "Money recap",
+    "phase": "RECAP + GENTLE CLOSE",
+    "subject": "Balik-tan-aw: ang bahin sa bill",
+    "body": "Mabug-at ang topic sa kwarta, mao nga ania ang summary:\n\n    Tan-awa ang kWh, dili lang ang peso.\n    Ang aircon ug daytime usage, dako og effect.\n    Buhata una ang free nga paagi sa pag-reduce.\n    Right-sized, dili pinakadako nga package.\n\nHonest nga numero ang basis.\n\nGusto og honest nga estimate? Message lang."
+  },
+  {
+    "id": "E47",
+    "title": "Backup recap",
+    "phase": "RECAP + GENTLE CLOSE",
+    "subject": "Balik-tan-aw: ang bahin sa brownout",
+    "body": "Para sa backup ug brownout, ania ang mga na-learn nato:\n\n    On-grid mo-off pag brownout (safety). Hybrid nga may battery, pwede padayon.\n    Himoa ang imong backup list, para sakto ang battery.\n    Walay exact nga runtime nga tama kung wala pa nakita ang setup.\n\nKlaro nga plano, dili tag-an.\n\nGusto maghimo sa imong backup plan? Message lang."
+  },
+  {
+    "id": "E48",
+    "title": "Local proof recap",
+    "phase": "RECAP + GENTLE CLOSE",
+    "subject": "Balik-tan-aw: ngano local ang maayo",
+    "body": "Summary sa bahin sa tiwala ug local:\n\n    Tinuod nga assessment, dili tag-an.\n    Masabtan ang net metering ug utility sa imong area.\n    Local nga team, duol kung kinahanglan.\n    Tawo gyud ang imong ka-istorya, dili bot.\n\nAng tiwala, importante pa sa presyo.\n\nNaa kay pangutana? Message lang."
+  },
+  {
+    "id": "E49",
+    "title": "A simple offer",
+    "phase": "RECAP + GENTLE CLOSE",
+    "subject": "Ready ka? Ania ang sunod nga step",
+    "body": "Pila na ka adlaw ta nag-istoryahanay about sa solar. Salamat sa imong time.\n\nKung ready ka na mangutana o mag-check sa imong bill, simple ra:\n\n    Message lang ko sa Messenger.\n    Mangutana ko sa imong bill ug gamit.\n    Kung haom, mag-set ta og free assessment.\n\nWalay pressure, walay bayad sa pagtan-aw.\n\nReady ka? Message lang."
+  },
+  {
+    "id": "E50",
+    "title": "Final, door stays open",
+    "phase": "RECAP + GENTLE CLOSE",
+    "subject": "Katapusan ni, pero open ra ang pultahan",
+    "body": "Mao ni ang katapusan sa series. Salamat kaayo sa pagbasa.\n\nKung dili pa karon ang imong time para sa solar, okay ra. Ang importante, mas nakasabot ka na karon kaysa sa una.\n\nKung naay time nga naay pangutana, bisan unsang adlaw, naa ra ko.\n\n    Message lang ko sa Messenger.\n    Walay expiration ang tabang.\n\nSalamat, ug take care sa imong bill."
+  }
+]

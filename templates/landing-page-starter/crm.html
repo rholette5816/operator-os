@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="theme-color" content="#0b3b2d" />
+    <title>Brand CRM | Lead Pipeline</title>
+    <link rel="stylesheet" href="crm.css" />
+  </head>
+  <body>
+    <div class="crm-app" id="crm-app">
+      <aside class="sidebar">
+        <a class="sidebar-brand" href="#overview" aria-label="Brand CRM overview">
+          <img src="assets/brand-emblem.webp" alt="" width="320" height="320" />
+          <div><strong>BRAND</strong><span>Clean Energy CRM</span></div>
+        </a>
+        <nav class="sidebar-nav" aria-label="CRM navigation">
+          <span class="nav-label">Workspace</span>
+          <a class="nav-link active" href="#overview"><span class="nav-icon">O</span>Overview</a>
+          <a class="nav-link" href="#leads"><span class="nav-icon">L</span>Leads</a>
+          <a class="nav-link" href="#followups"><span class="nav-icon">F</span>Follow-ups</a>
+          <a class="nav-link" href="email-preview.html"><span class="nav-icon">E</span>Email Sequence</a>
+          <a class="nav-link" href="analytics.html"><span class="nav-icon">A</span>Analytics</a>
+          <span class="nav-label nav-label-spaced">Channels</span>
+          <a class="nav-link" href="/" target="_blank"><span class="nav-icon">W</span>Assessment site</a>
+        </nav>
+        <div class="sidebar-user">
+          <span class="user-avatar">KR</span>
+          <div><strong>Founder </strong><span>CRM administrator</span></div>
+        </div>
+      </aside>
+
+      <main class="workspace">
+        <header class="topbar">
+          <div class="mobile-brand"><img src="assets/brand-emblem.webp" alt="" width="320" height="320" /><strong>Brand CRM</strong></div>
+          <div class="topbar-title"><span>Sales workspace</span><strong>Central Visayas</strong></div>
+          <div class="topbar-actions">
+            <span class="system-status"><i></i>System online</span>
+            <button class="icon-button" id="refresh-button" type="button" aria-label="Refresh leads" title="Refresh leads">Refresh</button>
+            <span class="topbar-avatar">KR</span>
+          </div>
+        </header>
+
+        <div class="workspace-content">
+          <section class="page-heading" id="overview">
+            <div><p class="eyebrow">Live lead pipeline</p><h1>Solar opportunities</h1><p>Track every assessment from first inquiry to installed customer.</p></div>
+            <div class="page-actions"><a class="primary-link" href="/" target="_blank">View landing page</a></div>
+          </section>
+
+          <section class="metrics-grid" aria-label="Pipeline summary">
+            <article class="metric-card"><div><span>Active leads</span><strong id="stat-all">0</strong></div><span class="metric-icon green">A</span><small>Open opportunities</small></article>
+            <article class="metric-card"><div><span>New assessments</span><strong id="stat-new">0</strong></div><span class="metric-icon blue">N</span><small>Awaiting first contact</small></article>
+            <article class="metric-card"><div><span>Qualified</span><strong id="stat-qualified">0</strong></div><span class="metric-icon amber">Q</span><small>Good solar fit</small></article>
+            <article class="metric-card"><div><span>Site visits</span><strong id="stat-booked">0</strong></div><span class="metric-icon purple">S</span><small>Booked assessments</small></article>
+            <article class="metric-card"><div><span>Won customers</span><strong id="stat-won">0</strong></div><span class="metric-icon dark">W</span><small>Closed opportunities</small></article>
+          </section>
+
+          <section class="pipeline-card" aria-labelledby="pipeline-title">
+            <div class="section-heading"><div><span class="section-kicker">Pipeline health</span><h2 id="pipeline-title">Opportunity stages</h2></div><span class="last-updated" id="last-updated">Waiting for refresh</span></div>
+            <div class="pipeline-stages" id="pipeline-stages"></div>
+          </section>
+
+          <div class="crm-grid">
+            <section class="leads-card" id="leads" aria-labelledby="leads-title">
+              <div class="section-heading leads-heading"><div><span class="section-kicker">Lead database</span><h2 id="leads-title">All assessments</h2></div><span class="record-count" id="record-count">0 records</span></div>
+              <div class="toolbar" aria-label="Lead filters">
+                <label class="search-field"><span class="sr-only">Search leads</span><input id="search-input" type="search" placeholder="Search name, phone, email, or city" /></label>
+                <button id="filter-button" type="button">Apply search</button>
+              </div>
+              <div class="filter-tags" id="filter-tags" role="group" aria-label="Filter by stage"></div>
+              <div class="table-wrap"><table><thead><tr><th>Contact</th><th>Location</th><th>Solar interest</th><th>Pipeline stage</th><th>Next action</th><th>Owner</th><th></th></tr></thead><tbody id="lead-rows"></tbody></table></div>
+              <div class="empty-state" id="empty-state" hidden><span class="empty-icon">+</span><strong>No assessments yet</strong><p>Completed assessments from the landing page will appear here automatically.</p><a href="/" target="_blank">Open assessment page</a></div>
+              <p class="panel-message" id="panel-message" role="status"></p>
+            </section>
+
+            <aside class="priority-card" id="followups" aria-labelledby="priority-title">
+              <div class="section-heading"><div><span class="section-kicker">Daily focus</span><h2 id="priority-title">Follow-up queue</h2></div></div>
+              <div class="priority-summary"><article><span>Due now</span><strong id="stat-due">0</strong></article><article><span>Unassigned</span><strong id="stat-unassigned">0</strong></article></div>
+              <div class="priority-list" id="priority-list"></div>
+              <div class="workflow-note"><strong>Recommended workflow</strong><ol><li>Contact every new assessment.</li><li>Confirm bill and property details.</li><li>Book a technical site visit.</li><li>Send the final quotation.</li></ol></div>
+            </aside>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <dialog class="lead-dialog" id="lead-dialog">
+      <form method="dialog" class="dialog-bar"><div><span>Lead record</span><strong id="detail-name">Lead details</strong></div><button aria-label="Close lead details">&times;</button></form>
+      <div class="lead-detail-body">
+        <section class="record-header"><div class="record-avatar" id="detail-avatar">S</div><div class="record-identity"><h2 id="record-name">Lead</h2><p id="record-meta">Solar assessment</p></div><span class="status-pill" id="record-status">New</span></section>
+        <section class="contact-strip"><a id="detail-phone" href="#">Call</a><a id="detail-email" href="#">Email</a></section>
+        <div class="record-layout">
+          <section><h3>Assessment profile</h3><div class="detail-grid" id="detail-grid"></div></section>
+          <form class="lead-edit-form" id="lead-edit-form">
+            <h3>Sales follow-up</h3><input id="lead-id" type="hidden" />
+            <label>Pipeline stage<select id="lead-status"><option value="new">New</option><option value="contacted">Contacted</option><option value="qualified">Qualified</option><option value="site_visit_booked">Site visit booked</option><option value="quotation_sent">Quotation sent</option><option value="follow_up">Follow up</option><option value="won">Won</option><option value="lost">Lost</option></select></label>
+            <label>Assigned team member<input id="lead-assigned" maxlength="120" placeholder="e.g. Founder" /></label>
+            <label>Next follow-up<input id="lead-follow-up" type="datetime-local" /></label>
+            <label>Internal notes<textarea id="lead-notes" rows="5" maxlength="5000" placeholder="Conversation notes, objections, and the agreed next step"></textarea></label>
+            <label class="contact-check"><input id="mark-contacted" type="checkbox" /> Mark contacted now</label>
+            <div class="edit-actions"><button class="danger-button" type="button" id="delete-lead">Delete lead</button><button class="secondary-button" type="button" id="close-detail">Cancel</button><button type="submit">Save record</button></div>
+            <p class="form-message" id="edit-message" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </dialog>
+    <script src="crm.js"></script>
+  </body>
+</html>
